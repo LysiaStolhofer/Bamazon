@@ -1,0 +1,28 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon-like storefront",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LysiaStolhofer/bamazon.git"
+  },
+  "keywords": [
+    "bamazon"
+  ],
+  "author": "LysiaStolhofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LysiaStolhofer/bamazon/issues"
+  },
+  "homepage": "https://github.com/LysiaStolhofer/bamazon#readme",
+  "dependencies": {
+    "@lvchengbin/cli-table": "0.0.0",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1",
+    "promise-mysql": "^4.1.1"
+  }
+}
