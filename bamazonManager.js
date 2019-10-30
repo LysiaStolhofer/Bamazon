@@ -72,7 +72,7 @@ function stockManagement() {
         }
 
         if (answers.optionSelect === "Exit") {
-            console.log("Bye Bye")
+            console.log("Danke und Tschüss.")
             connection.end();
         }
     })
@@ -99,7 +99,6 @@ function showProducts() {
 
 };
 
-/////////////////////////////////////////////
 function lowInventory() {
 
     connection.query("SELECT * FROM products", function (err, res) {
