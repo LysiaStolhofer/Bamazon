@@ -3,15 +3,9 @@ var departments = [];
 
 var connection = mysql.createConnection({
     host: "localhost",
-
-
     port: 3306,
-
-
     user: "root",
-
-
-    password: "",
+    password: "Lysia14055!",
     database: "bamazonDB"
 
 });
@@ -22,7 +16,7 @@ connection.connect(function (err) {
     clearScreen()
 
 
-    console.log("\033[32m", "Welcome to Bamazon Supervisor Section NodeJs App.", "\x1b[0m\n");
+    console.log("\033[32m", "Welcome to Bamazon Supervisor.", "\x1b[0m\n");
     connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
 
@@ -39,7 +33,6 @@ connection.connect(function (err) {
 
 });
 
-//////////////////////////////////////////////////////////////
 var SupervisorMenuItems = {
     "View Product Sales by Department": viewDepartmentSales,
     "Create New Department": addDepartment,
@@ -60,7 +53,7 @@ function stockSupervision() {
     })
 
 };
-///////////////////////////////////////////////////////////
+
 function viewDepartmentSales() {
 
     clearScreen();
@@ -93,7 +86,6 @@ function viewDepartmentSales() {
     });
 };
 
-////////////////////////////////////////////////////////
 function addDepartment() {
 
     var inquirer = require('inquirer');
@@ -129,7 +121,7 @@ function addDepartment() {
             },
 
             function (err, res) {
-                console.log(" " + addNewDepartment.departmentName + "\033[32m", "has been added to departments!", "\x1b[0m\n");
+                console.log(" " + addNewDepartment.departmentName + "\033[32m", "has been added to departments.", "\x1b[0m\n");
                 console.log("\n----------------------------------------------------------------\n");
 
                 if (anotherDepartment === "y") {
@@ -142,15 +134,14 @@ function addDepartment() {
 
     });
 };
-///////////////////////////////////////////////////////
+
 function exitProgram() {
     clearScreen();
-    console.log("Bye Bye!");
+    console.log("Auf Wiedersehen!");
     connection.end();
 };
 
 
-///////////////////////////////////////////////
 function clearScreen() {
     process.stdout.write("\033c");
 };
