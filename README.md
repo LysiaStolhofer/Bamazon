@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this activity I created an Amazon-like storefrint with MySQL. The application takes orders from customers and deplete stock from the store's inventory. As a bonus I programmed the app to track product sales across my store's departments and then provided a summary of the highest-grossing departments in the store.
+In this activity I created an Amazon-like storefront with MySQL. The application takes orders from customers and deplete stock from the store's inventory. As a bonus I programmed the app to track product sales across my store's departments and then provided a summary of the highest-grossing departments in the store.
 
 ### Part #1: Customer View
 
