@@ -24,7 +24,7 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
 - :page_facing_up: package.json
 -----------------------------------------------------------------------------------------------------------------------------
 
-### Part #1: Customer View
+### Part 1: Customer View
 
 1. I created a MySQL Database called `bamazon`.
 
@@ -60,7 +60,7 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
    * Once the update goes through, the customer the total cost of their purchase will be shown.
 ----------------------------------------------------------------------------------------------------------------------------------
 
-### Part #2: Manager View
+### Part 2: Manager View
 
 * Then I created new Node application called `bamazonManager.js`. Running this application will:
 
@@ -83,7 +83,7 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
   * If a manager selects `Add New Product`, it allows the manager to add a completely new product to the store.
 ----------------------------------------------------------------------------------------------------------------------------------
 
-### Part #3: Supervisor View
+### Part 3: Supervisor View
 
 1. I create a new MySQL table called `departments`. My table includes the following columns:
 
