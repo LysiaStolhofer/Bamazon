@@ -2,7 +2,22 @@
 
 ## Overview
 
-In this activity I created an Amazon-like storefront with MySQL. The application takes orders from customers and deplete stock from the store's inventory. As a bonus I programmed the app to track product sales across my store's departments and then provided a summary of the highest-grossing departments in the store.
+_In this activity I created an Amazon-like storefront with MySQL. The application takes orders from customers and deplete stock from the store's inventory. As a bonus I programmed the app to track product sales across my store's departments and then provided a summary of the highest-grossing departments in the store._
+
+## Features :computer:
+
+- :file_folder: screenshots
+ - :page_facing_up: multiple img files
+- :page_facing_up: .gitignore
+- :page_facing_up: README.md
+- :page_facing_up: bamazonCustomer.js
+- :page_facing_up: bamazonManager.js
+- :page_facing_up: bamazonProducts.sql
+- :page_facing_up: bamazonSchema.sql
+- :page_facing_up: bamazonSupervisor.js
+- :page_facing_up: package-lock.json
+- :page_facing_up: package.json
+-----------------------------------------------------------------------------------------------------------------------------
 
 ### Part #1: Customer View
 
@@ -38,7 +53,7 @@ In this activity I created an Amazon-like storefront with MySQL. The application
 8. However, if my store _does_ have enough of the product, it will fulfill the customer's order.
    * This means the SQL database can be updated to reflect the remaining quantity.
    * Once the update goes through, the customer the total cost of their purchase will be shown.
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 ### Part #2: Manager View
 
@@ -61,6 +76,7 @@ In this activity I created an Amazon-like storefront with MySQL. The application
   * If a manager selects `Add to Inventory`, my app displays a prompt that will let the manager "add more" of any item currently in the store.
 
   * If a manager selects `Add New Product`, it allows the manager to add a completely new product to the store.
+----------------------------------------------------------------------------------------------------------------------------------
 
 ### Part #3: Supervisor View
 
@@ -86,5 +102,8 @@ In this activity I created an Amazon-like storefront with MySQL. The application
 
 5. The `total_profit` column will be calculated on the fly using the difference between `over_head_costs` and `product_sales`. `total_profit` should not be stored in any database. You should use a custom alias.
 
+----------------------------------------------------------------------------------------------------------------------------------
+
+:earth_americas: Coming soon!
 
 Viel Spaß beim Ausprobieren!
