@@ -5,6 +5,11 @@
 _In this activity I created an Amazon-like storefront with MySQL. The application takes orders from customers and deplete stock from the store's inventory. As a bonus I programmed the app to track product sales across my store's departments and then provided a summary of the highest-grossing departments in the store._
 
 ## Features :computer:
+- JavaScript
+- MySQL
+- Node JS
+
+## Bamazon Structure 
 
 - :file_folder: screenshots
  - :page_facing_up: multiple img files
