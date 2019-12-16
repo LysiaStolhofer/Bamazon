@@ -1,12 +1,14 @@
-# Node.js & MySQL / "Bamazon" :shopping:
+Bamazon :shopping:
 
 _In this activity I created an Amazon-like storefront with MySQL. The application takes orders from customers and deplete stock from the store's inventory. As a bonus I programmed the app to track product sales across my store's departments and then provided a summary of the highest-grossing departments in the store._
 
+---------------------------------------------------------------------------------------------------------------------------------------
 ## Features :computer:
+
 - JavaScript
 - MySQL
 - Node JS
-
+---------------------------------------------------------------------------------------------------------------------------------------
 ## Bamazon Structure 
 
 - :file_folder: screenshots
@@ -21,7 +23,6 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
 - :page_facing_up: package-lock.json
 - :page_facing_up: package.json
 -----------------------------------------------------------------------------------------------------------------------------
-
 ### Part 1: Customer View
 
 1. I created a MySQL Database called `bamazon`.
@@ -57,7 +58,6 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
    * This means the SQL database can be updated to reflect the remaining quantity.
    * Once the update goes through, the customer the total cost of their purchase will be shown.
 ----------------------------------------------------------------------------------------------------------------------------------
-
 ### Part 2: Manager View
 
 * Then I created new Node application called `bamazonManager.js`. Running this application will:
@@ -80,7 +80,6 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
 
   * If a manager selects `Add New Product`, it allows the manager to add a completely new product to the store.
 ----------------------------------------------------------------------------------------------------------------------------------
-
 ### Part 3: Supervisor View
 
 1. I create a new MySQL table called `departments`. My table includes the following columns:
@@ -106,7 +105,6 @@ _In this activity I created an Amazon-like storefront with MySQL. The applicatio
 5. The `total_profit` column will be calculated on the fly using the difference between `over_head_costs` and `product_sales`. `total_profit` should not be stored in any database. You should use a custom alias.
 
 ----------------------------------------------------------------------------------------------------------------------------------
-
 :earth_americas: Coming soon!
 
 Viel Spaß beim Ausprobieren!
